@@ -1,0 +1,41 @@
+{
+  "name": "mysql-table",
+  "version": "2.2.7",
+  "description": "Simple and flexable Mysql library built on top of knexjs.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkunlun/mysql-table-d.git"
+  },
+  "keywords": [
+    "mysql",
+    "knex",
+    "mysql2",
+    "orm",
+    "easy",
+    "simple",
+    "knexjs",
+    "mssql",
+    "postgres",
+    "mariadb",
+    "sqllite3"
+  ],
+  "author": "DKL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkunlun/mysql-table-d/issues"
+  },
+  "homepage": "https://github.com/dkunlun/mysql-table-d#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "highland": "^2.13.0",
+    "knex": "^0.15.2",
+    "lodash": "^4.17.10",
+    "mysql": "^2.15.0",
+    "mysql2": "^1.5.3",
+    "uuid": "^3.2.1"
+  }
+}
