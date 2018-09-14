@@ -1,5 +1,5 @@
 {
-  "name": "mysql-table",
+  "name": "mysql-table-d",
   "version": "2.2.7",
   "description": "Simple and flexable Mysql library built on top of knexjs.",
   "main": "index.js",
