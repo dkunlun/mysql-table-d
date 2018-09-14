@@ -14,6 +14,8 @@ var Connection = Promise.method(function (config) {
     pool: config.pool,
     acquireConnectionTimeout: config.acquireConnectionTimeout || 10000,
     client: config.client || 'mysql',
+    log: config.log || {},
+    debug: config.debug || false,
     connection: {
       user: config.user,
       host: config.host,
